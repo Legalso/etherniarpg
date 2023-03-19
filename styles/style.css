@@ -1,0 +1,69 @@
+ @import url('https://fonts.googleapis.com/css2?family=Flamenco&family=Montserrat:wght@600&display=swap');
+
+:root {
+    --cor-primaria: #C11515;
+    --cor-secundaria: #A60AEF;
+    --cor-terciaria: #F5AF22;
+    --cor-quartenaria: #141313;
+    --cor-quintenaria: white;
+    --cor-hover-1: #C261F0;
+    --cor-hover-2: #F8C155;
+    --fonte-primaria: 'Flamenco', cursive;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rodape {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 50px;
+    font-family: var(--fonte-secundaria);
+}
+
+#ethernia-logo-ruptura {
+    height: 97px;
+    width: 61px;
+    border-radius: 0px;
+    padding: 0 0 0 15%;
+    gap: 0;
+    align-self: center;
+}
+
+#ethernia-wiki {
+    gap: 0;
+    align-self: center;
+}
+
+.cabecalho {
+    padding: 2% 0;
+    background-color: var(--cor-quartenaria);
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    align-self: center;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-hover-2);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-quintenaria);
+}
