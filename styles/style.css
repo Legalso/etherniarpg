@@ -84,6 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 2%;
+    z-index: 1;
   }
   
   .caixa h1 {
@@ -135,7 +136,7 @@ body {
 
 .banner video {
     position: fixed;
-    top: 0;
+    top: 13%;
     left: 0;
     object-fit: cover;
     width: 100%;
