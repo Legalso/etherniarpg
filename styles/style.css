@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Flamenco&family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-primaria: #C11515;
+    --cor-primaria: #000000;
     --cor-secundaria: #A60AEF;
     --cor-terciaria: #F5AF22;
     --cor-quartenaria: #141313;
@@ -17,26 +17,21 @@
     padding: 0;
 }
 
-.rodape {
-    background-color: var(--cor-quartenaria);
-    color: var(--cor-terciaria);
-    text-align: center;
-    padding: 50px;
-    font-family: var(--fonte-secundaria);
-}
-
 #ethernia-logo-ruptura {
-    height: 97px;
-    width: 61px;
+    height: 50px;
+    width: 30px;
     border-radius: 0px;
     padding: 0 0 0 15%;
-    gap: 0;
     align-self: center;
+}
+
+.cabecalho__menu__primeiro {
+    display: flex;
+    gap: 10px;
 }
 
 #ethernia-wiki {
-    gap: 0;
-    align-self: center;
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -46,8 +41,10 @@
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 70px;
+    justify-content: space-evenly;
 }
+
 
 .cabecalho__menu__link {
     font-family: var(--fonte-primaria);
@@ -59,11 +56,87 @@
 }
 
 .cabecalho__menu__link:hover {
-    color: var(--cor-hover-2);
+    color: var(--cor-hover-1);
 }
 
 body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-quintenaria);
+}
+
+.fundo {
+    text-decoration: none;
+}
+
+.caixa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    background-color: var(--cor-quartenaria);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+  }
+  
+  .caixa h1 {
+    font-size: 5rem;
+    font-family: var(--fonte-primaria);
+    margin-bottom: 10px;
+    color: var(--cor-secundaria);
+  }
+  
+  .caixa p1 {
+    height: 80px;
+    width: 558px;
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+  }  
+
+  #saibamais {
+    font-size: 0.7rem;
+    font-family: var(--fonte-secundaria);
+    text-decoration:underline;
+    color: var(--cor-secundaria);
+  } 
+
+  #saibamais :hover {
+    color: var(--cor-hover-2);
+  }
+
+  .rodape {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 40px;
+    font-family: var(--fonte-secundaria);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+  .banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
 }
