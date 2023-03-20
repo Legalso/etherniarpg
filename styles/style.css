@@ -33,6 +33,15 @@
 #ethernia-wiki {
     color: var(--cor-secundaria);
 }
+#Personagens {
+    color: var(--cor-secundaria);
+}
+#Dados {
+    color: var(--cor-secundaria);
+}
+#Mundo {
+    color: var(--cor-secundaria);
+}
 
 .cabecalho {
     padding: 2% 0;
