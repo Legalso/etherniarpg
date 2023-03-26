@@ -1,4 +1,4 @@
-# etherniarpg
+# Ethernia RPG wiki
 
 > Project status: Under development
 
