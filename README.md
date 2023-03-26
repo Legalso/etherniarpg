@@ -10,4 +10,5 @@ I had the idea to create a wiki to put all the information gathered along the ye
 
 - Figma Project: https://www.figma.com/file/az53h33pzHnahEVoh9LLNe/Ethernia?node-id=0-1&t=8KusGfQGfJTQt1PW-0
 
-![Alt Text](https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif)
+  <p aliign="center">![Alt Text](https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif)</p>
+  
