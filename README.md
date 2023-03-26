@@ -2,7 +2,7 @@
 
 > Project status: Under development
 
-<h1>Personal colaboration project for a tabletop RPG that I play with some friends<h1>
+<h1>Personal colaboration project for a tabletop RPG that I play with some friends</h1>
 
 I had the idea to create a wiki to put all the information gathered along the years in there, so I called a friend to help me building the site. We started the project with a Figma template and we used it to practice HTML and CSS.
 
