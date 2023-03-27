@@ -8,6 +8,8 @@ I had the idea to create a wiki to put all the information gathered along the ye
 
 - Credits for the initial page background video: https://www.youtube.com/watch?v=E475vIKYvD4&t
 
+- Credits for the background music: https://www.youtube.com/watch?v=0RAbCyyduC0
+
 - Figma Project: https://www.figma.com/file/az53h33pzHnahEVoh9LLNe/Ethernia?node-id=0-1&t=8KusGfQGfJTQt1PW-0
 
 - Trello: https://trello.com/b/LzueiH38/planejamento
