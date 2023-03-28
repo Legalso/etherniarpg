@@ -3,7 +3,7 @@
 > Project status: Under development
 
 ```
-For some reason the Github page doesn't seem to be working well
+To see the project please open the Github pages link!!!
 ```
 
 <h1>Personal colaboration project for a tabletop RPG that I play with some friends</h1>

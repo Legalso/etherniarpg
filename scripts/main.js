@@ -1,2 +1,1 @@
-var vid = document.getElementById("myVideo");
-vid.volume = 0.3;
+// não tem nada aqui por enquanto!!!
