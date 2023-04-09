@@ -21,17 +21,45 @@
         </nav>
     </header>
 
-    <main class="fundo">
+    <!-- <main class="fundo">
+
         <div class="caixa">
-            <div class="imagemtitulo">
-            <a><img src="assets/ethernia-logo-ruptura.png"></a>
-            <h1>ETHERNIA</h1>
-            </div>
-            <p1>
-              Em breve um rolador de dados estará disponível nessa página.
-            </p1>
+
         </div>
-    </main>
+
+      </main> -->
+
+          <div class="bg-img"></div>
+
+          <div class="container">
+            <div class="results-box">
+              <span id="results">1</span>
+            </div>
+        
+            <div class="dice-container">
+              <button class="btn-die" id="d4" onclick="rollD4()">d4</button>
+        
+              <button class="btn-die" id="d6" onclick="rollD6()">d6</button>
+        
+              <button class="btn-die" id="d8" onclick="rollD8()">d8</button>
+        
+              <button class="btn-die" id="d10" onclick="rollD10()">d10</button>
+        
+              <button class="btn-die" id="d12" onclick="rollD12()">d12</button>
+        
+              <button class="btn-die" id="d20" onclick="rollD20()">d20</button>
+            </div>
+        
+            <div class="multiplier-container">
+              <div class="mulitplier-box">
+                <p>Número de Dados</p>
+                <input class="mult-input" id="mult-input" type="number" name="multiplier" value="1" min="1" max="10">
+              </div>
+            </div>
+          </div>
+        
+          <script src="scripts/main.js"></script>  
+  
     <footer class="rodape">
         @2023 DaWarriorDuck
     </footer>
