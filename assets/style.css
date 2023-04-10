@@ -167,20 +167,18 @@ body {
   }
   
   .caixa__conteudo__indice{
-    margin: 5% 0 3% 0;
-    width: 200px;
-    border: solid 3px;
+    margin: 7% 5% 5% 5%;
+    width: 88%;
+    border: solid 3px var(--cor-terciaria);
     display: flex;
-    flex-direction: column;
- 
+    text-align: center;
   }
+  
   .indice__titulo{
-    border: solid;
-    border-top: 3px;
-    border-left: 0px;
-    border-right: 2px;
-    width: 200px;
+    margin: 3% 3% 3% 3%;
+    width: 100%;
   }
+  
   .indice_conteudo{
     padding: 3%;
   }
@@ -254,6 +252,80 @@ body {
     right: 0;
 }
 
+#Perso_name {
+  color: var(--cor-hover-1);
+}
+
+.pagpersonagens {
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  gap: 4%
+}
+
+.textopersonagem {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .caixaindice {
+  border: solid 1px;
+} */
+
+.indiceconteudo {
+  font-size: 1rem;
+  font-family: var(--fonte-secundaria);
+  text-decoration:none;
+  color: var(--cor-secundaria);
+  /* border: solid 1px; */
+  width: 500px;
+  padding: 0% 1% 0% 1%;
+
+} 
+
+.indiceconteudo :hover {
+  color: var(--cor-hover-2);
+}
+
+.titulopersonagem {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: var(--cor-terciaria);
+}
+
+.texto_personagem {
+  text-align: justify;
+}
+
+.quadrado_personagem {
+  border: solid 3px var(--cor-secundaria);
+  background-color: #1f1e1e;
+}
+
+.highlighttext {
+  color: var(--cor-terciaria);
+}
+.textocombackground {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.textonoquadrado {
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
+
+#char_name {
+  background-color: var(--cor-terciaria);
+  color: #000000;
+  text-align: center;
+}
+
+/* d20 */
+/* d20 */
 /* d20 */
 
 .container {
