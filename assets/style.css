@@ -397,3 +397,26 @@ body {
   border-radius: 8px;
   margin-left: 30px;
 }
+
+/* Aqui, meus companheiros e companheiras, começa a jornada da responsividade. */
+
+@media (max-width: 1680px) {
+/* MONITOR DO MARCOS */
+#videoindex {
+  display: none;
+}
+}
+
+@media (max-width: 720px) {
+  /* CELULAR DO NATAN */
+#videoindex {
+  display: none;
+}
+}
+
+@media (max-width: 1080px) {
+  /* CELULAR DO CAIO */ 
+#videoindex {
+  display: none;
+}
+}
