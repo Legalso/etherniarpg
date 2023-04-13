@@ -405,6 +405,19 @@ body {
 #videoindex {
   display: none;
 }
+.cabecalho__menu__primeiro {
+  gap: 6px;
+}
+.cabecalho__menu {
+  gap: 50px;
+}
+.rodape {
+  padding: 35px;
+}
+.caixa {
+  width: 900px;
+  height: 500px;
+}
 }
 
 @media (max-width: 720px) {
