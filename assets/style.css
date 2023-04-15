@@ -125,7 +125,6 @@ body {
   }  
 
 
-
   #saibamais {
     font-size: 0.7rem;
     font-family: var(--fonte-secundaria);
@@ -335,13 +334,17 @@ body {
   /* border: 2px solid red; */
 }
 
+.roldados {
+  margin-top: 20px;
+}
+
 /* Results Box */
 .results-box {
   border: 2px solid var(--cor-secundaria);
   border-radius: 8px;
   background-color: var(--cor-quartenaria);
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 10px;
   width: 30px;
   text-align: center;
 }
@@ -395,28 +398,158 @@ body {
   padding: 8px 12px;
   width: 70px;
   border-radius: 8px;
-  margin-left: 30px;
+  margin-top: 10px;
+  /* margin-left: 30px; */
 }
 
 /* Aqui, meus companheiros e companheiras, começa a jornada da responsividade. */
 
 @media (max-width: 1680px) {
-/* MONITOR DO MARCOS */
-#videoindex {
-  display: none;
+/* MONITOR DO MARCOS monitor 1680x1080p*/
+.banner video {
+  width: 105%;
+  height: 103%;
 }
+.caixa {
+  margin-top: 1.8%;
+  width: 900px;
+  height: 600px;
 }
 
+.caixa h1 {
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+
+.caixa p1 {
+  height: 80px;
+  width: 558px;
+  font-size: 0.9rem;
+}  
+}
+
+
 @media (max-width: 720px) {
-  /* CELULAR DO NATAN */
+  /* CELULAR DO NATAN (Moto G8 - 720 x 1560)*/
 #videoindex {
   display: none;
 }
+.cabecalho {
+  padding-bottom: 0;
+  }
+.cabecalho__menu__primeiro {
+  padding-top: 3%;
+  gap: 10px;
+}
+.cabecalho__menu {
+  padding-top: 3%;
+  gap: 10px;
+}
+.cabecalho__menu__link {
+  padding-top: 3%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  align-self: center;
+}
+.ethernia-logo-ruptura {
+  padding-top: 3%;
+  height: 40px;
+  width: 20px;
+  padding: 0 0 0 15%;
+}
+.caixa {
+  width: 700px;
+  height: 1000px;
+}
+.caixa h1 {
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+.caixa p1 {
+  height: 80px;
+  width: 558px;
+  font-size: 0.9rem;
+}  
 }
 
 @media (max-width: 1080px) {
-  /* CELULAR DO CAIO */ 
-#videoindex {
-  display: none;
+  /* CELULAR DO CAIO Redmi Note 11 (1080 x 2400)*/ 
+  #videoindex {
+    display: none;
+  }
+  .caixa {
+    width: 1000px;
+    height: 2000px;
+  }
+  .caixa h1 {
+    font-size: 4rem;
+    margin-bottom: 40px;
+  }
+  .caixa p1 {
+    height: 80px;
+    width: 558px;
+    font-size: 0.9rem;
+  }  
+  .cabecalho {
+    padding-bottom: 0;
+    }
+  .cabecalho__menu__primeiro {
+    padding-top: 3%;
+    gap: 10px;
+  }
+  .cabecalho__menu {
+    padding-top: 3%;
+    gap: 10px;
+  }
+  .cabecalho__menu__link {
+    padding-top: 3%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    align-self: center;
+  }
+  .ethernia-logo-ruptura {
+    padding-top: 3%;
+    height: 40px;
+    width: 20px;
+    padding: 0 0 0 15%;
+  }
+  body {
+    box-sizing: border-box;
+    background-image: none;
+  }
 }
+
+@media (max-width: 1920px) {
+  /* MONITOR 1 CAIO (1080 x 2400)*/ 
+.cabecalho {
+  padding-bottom: 5%;
+  }
+
+.banner video {
+  position: fixed;
+  top: 12.5%;
+  width: 105%;
+}
+}
+
+@media (max-width: 1600px) {
+  /* MONITOR 2 CAIO (1600 x 900)*/ 
+.banner video {
+  width: 105%;
+}
+.caixa {
+  width: 900px;
+  height: 500px;
+}
+
+.caixa h1 {
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+
+.caixa p1 {
+  height: 80px;
+  width: 558px;
+  font-size: 0.9rem;
+}  
 }
