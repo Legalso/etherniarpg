@@ -1,3 +1,7 @@
+/* Código não foi escrito por mim, peguei da 
+internet 
+Depois preciso estudar o funcionamento */
+
 // Build function(s) for rolling random number on each die
 
 // function dieRange(minRoll, maxRoll) {
