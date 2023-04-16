@@ -549,6 +549,46 @@ body {
     margin: 0;
     padding-bottom: 5%;
   }
+
+  .fundo {
+    width: 720px;
+  }
+
+  .pagpersonagens {
+    width: 720px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .caixa__retangulo {
+    padding-top: 2%;
+  }
+
+  .caixa__conteudo__indice {
+    margin: 2%;
+    margin-left: 10%;
+    width: 75%;
+  }
+
+  .texto_personagem {
+    margin: 1.5% ;
+    width: 94%;
+  }
+
+  .titulopersonagem {
+    width: auto;
+  }
+
+  .quadrado_personagem {
+    position: relative;
+    top: 10%;
+    left: 22%;
+    width: 49%;
+    align-items: center;
+    margin: 3%;
+  }
 }
 
 @media (max-width: 1680px) {
