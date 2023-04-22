@@ -476,6 +476,11 @@ body {
     margin: 0;
     padding-bottom: 5%;
   }
+
+  #roldados {
+    margin-top: none;
+    font-size: 130%;
+  }
 }
 @media (max-width: 1080px) {
   /* CELULAR DO CAIO*/
