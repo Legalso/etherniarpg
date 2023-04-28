@@ -1,6 +1,6 @@
 # Ethernia RPG wiki
 
-> Project status: Under development
+> Project status: Only missing the data (I already did all the code work)
 
 ```
 To see the project please open the Github pages link!
